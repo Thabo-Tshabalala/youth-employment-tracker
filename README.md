@@ -47,7 +47,7 @@ cd capaciti-etl-poc
 ```
 
 ### 2. Configure Environment
-Create a `.env` file in the root directory:
+Create a `.env` file in the root directory: ?? No need, Exposed it for ya🥲
 ```env
 DB_URI=postgresql://postgres:postgres@localhost:5432/capaciti
 ```
@@ -193,3 +193,4 @@ docker exec -it capaciti-airflow python /opt/airflow/dags/etl.py
 ```
 
 -- Btw Power BI can also use these views directly
+
