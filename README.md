@@ -1,15 +1,28 @@
-﻿# youth-employment-tracker
+# Youth Employment Tracker
 
-Project Structure
-capaciti-etl-poc/
-├── dags/               # Airflow DAGs & ETL scripts
+A comprehensive ETL pipeline for tracking and analyzing youth employment programs, built with automated data processing and visualization capabilities.
+
+## 🚀 Features
+
+- **Automated ETL Pipeline**: Python + Pandas + SQLAlchemy for data processing
+- **Scheduled Processing**: Airflow DAG for daily ETL automation
+- **Data Warehouse**: PostgreSQL with optimized star schema design
+- **Ready-to-Use Views**: Pre-built SQL views for instant dashboard creation
+- **Multiple BI Support**: Works with Power BI, Metabase, Tableau, and other tools
+- **Containerized Setup**: Full Docker-based deployment for easy setup
+
+## 📁 Project Structure
+
+```
+youth-employment-tracker/
+├── dags/                   # Airflow DAGs & ETL scripts
 │   └── etl.py
-├── data/               # Sample CSV data
+├── data/                   # Sample CSV data
 │   ├── candidates.csv
 │   ├── programs.csv
 │   ├── attendance.csv
 │   └── placements.csv
-├── sql/                # SQL scripts for schema & views
+├── sql/                    # SQL scripts for schema & views
 │   ├── ddl_star_schema.sql
 │   └── views.sql
 ├── docs/
@@ -17,128 +30,166 @@ capaciti-etl-poc/
 ├── docker-compose.yml
 ├── .env
 └── README.md
+```
 
-Features
+## 🛠️ Prerequisites
 
-Automated ETL using Python + Pandas + SQLAlchemy.
+- [Docker](https://docs.docker.com/get-docker/) & Docker Compose
+- [Git](https://git-scm.com/downloads)
+- Optional: Power BI or preferred BI tool
 
-Airflow DAG for daily ETL scheduling.
+## ⚡ Quick Setup
 
-PostgreSQL data warehouse with star schema.
-
-Views are included in sql/views.sql and can be used in Power BI, Metabase, or other tools.
-
-Metabase dashboard setup included for easy visualization.
-
-Prerequisites
-
-Docker & Docker Compose installed
-
-Git
-
-Optional: Power BI or other BI tool
-
-Setup
-
-Clone the repository
-
-git clone https://github.com/<your-username>/capaciti-etl-poc.git
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Thabo-Tshabalala/youth-employment-tracker
 cd capaciti-etl-poc
+```
 
-
-Create .env file
-
+### 2. Configure Environment
+Create a `.env` file in the root directory:
+```env
 DB_URI=postgresql://postgres:postgres@localhost:5432/capaciti
+```
 
-
-Start services
-
+### 3. Start Services
+```bash
 docker compose up -d
+```
 
+This will start three containers:
+- **capaciti-postgres** → PostgreSQL database
+- **capaciti-airflow** → Airflow scheduler/webserver
+- **capaciti-metabase** → Metabase dashboard
 
-Containers started:
+### 4. Initialize Database
+The database schema and views are automatically created on startup. To verify:
 
-capaciti-postgres → PostgreSQL
-
-capaciti-airflow → Airflow
-
-capaciti-metabase → Metabase
-
-Initialize database schema and views
-
-The ./sql folder is mounted in Postgres, so all .sql files (including views.sql) are executed automatically on container startup.
-To verify:
-
+```bash
 docker exec -it capaciti-postgres psql -U postgres -d capaciti
-\dt    # check tables
-\dv    # check views
+```
 
+```sql
+\dt    -- Check tables
+\dv    -- Check views
+```
 
-Run ETL manually (optional)
-
+### 5. Load Sample Data (Optional)
+```bash
 docker exec -it capaciti-airflow bash
 python /opt/airflow/dags/etl.py
+```
 
+## 📊 Services & Access
 
-The ETL script loads CSV data into your tables.
+### Airflow (ETL Orchestration)
+- **URL**: http://localhost:8080
+- **Username**: admin  
+- **Password**: Check logs for generated password
+  ```bash
+  docker compose logs airflow | grep password
+  ```
+- **DAG**: `capaciti_etl_daily` - Runs automatically daily, can be triggered manually
 
-Airflow
+### Metabase (Built-in Dashboards)
+- **URL**: http://localhost:3000
+- **Database Connection**:
+  - Host: `postgres`
+  - Port: `5432`
+  - Database: `capaciti`
+  - Username: `postgres`
+  - Password: `postgres`
 
-Open Airflow UI: http://localhost:8080
+### PostgreSQL Database
+- **Host**: localhost:5432
+- **Database**: capaciti
+- **Credentials**: postgres/postgres
 
-User: admin
+## 📈 Dashboard & Analytics
 
-Password: printed in logs on first run (docker compose logs airflow | grep password)
+### Pre-built Views
+The system includes ready-to-use SQL views for common analytics:
 
-DAG: capaciti_etl_daily
+- **Placement Rates by Province**
+- **Attendance Tracking & Averages**  
+- **Cohort Performance Metrics**
+- **Program Effectiveness Analysis**
 
-Runs ETL automatically daily
+### BI Tool Integration
+Connect any BI tool using the PostgreSQL credentials above:
 
-Can trigger manually for testing
+**Power BI Setup:**
+1. Get Data → PostgreSQL database
+2. Server: localhost:5432
+3. Database: capaciti
+4. Load views from `sql/views.sql`
 
-Metabase
+**Other Tools:** Tableau, Looker, etc. can connect the same way.
 
-Open Metabase: http://localhost:3000
+## 🔍 Data Verification
 
-Connect to the database using:
+Check that your data loaded correctly:
 
-Host: postgres
-Port: 5432
-Database: capaciti
-User: postgres
-Password: postgres
-
-
-Use the provided views in sql/views.sql to build dashboards.
-
-Any BI tool (Power BI, Tableau) can use these views too.
-
-Simply point to the database and load the views.
-
-Optional: Power BI / Other BI Tools
-
-Connect to Postgres with .env credentials.
-
-Load the views from sql/views.sql folder.
-
-Create visuals like:
-
-Placement % by province
-
-Attendance averages
-
-Cohort outcomes
-
-Verification
-
-Check the data is loaded:
-
+```sql
+-- Sample queries to verify data
 SELECT * FROM dim_candidates LIMIT 5;
 SELECT * FROM fact_attendance LIMIT 5;
 SELECT * FROM fact_placements LIMIT 5;
 
-Notes
+-- Quick analytics
+SELECT 
+  province,
+  COUNT(*) as total_candidates,
+  AVG(CASE WHEN placement_status = 'Placed' THEN 1.0 ELSE 0.0 END) as placement_rate
+FROM dim_candidates c
+JOIN fact_placements p ON c.candidate_id = p.candidate_id
+GROUP BY province;
+```
 
-Views can be customized or replaced with any preferred queries, I personally used Metabase Btw but powerBI or any should work.
+## 🔧 Customization
 
-ETL script is simple and can be extended to include transformations or data quality checks.
+### Adding New Data Sources
+1. Add CSV files to the `data/` directory
+2. Update `dags/etl.py` to include new data processing
+3. Modify `sql/ddl_star_schema.sql` if schema changes are needed
+
+### Custom Views
+Edit `sql/views.sql` to add your own analytical views:
+
+```sql
+-- Example: Custom view for monthly placement trends
+CREATE VIEW monthly_placement_trends AS
+SELECT 
+  DATE_TRUNC('month', placement_date) as month,
+  COUNT(*) as placements,
+  AVG(salary) as avg_salary
+FROM fact_placements
+WHERE placement_status = 'Placed'
+GROUP BY DATE_TRUNC('month', placement_date)
+ORDER BY month;
+```
+
+## 🚨 Troubleshooting
+
+### Services Not Starting
+```bash
+# Check service status
+docker compose ps
+
+# View logs
+docker compose logs [service-name]
+```
+
+exec -it capaciti-postgres psql -U postgres -d capaciti -c "SELECT 1;"
+```
+
+### ETL Failures
+```bash
+# Check Airflow logs
+docker compose logs airflow
+
+# Manual ETL run for debugging
+docker exec -it capaciti-airflow python /opt/airflow/dags/etl.py
+```
+
+-- Btw Power BI can also use these views directly
