@@ -1,0 +1,401 @@
+engagement_id,candidate_id,module_name,last_activity,score,completion_rate
+E001,C026,Linux Fundamentals,2024-06-20,58,50%
+E002,C053,Linux Fundamentals,2024-02-24,62,25%
+E003,C105,Cloud Essentials,2024-02-27,87,50%
+E004,C043,Python Basics,2024-04-07,79,0%
+E005,C122,Python Basics,2024-05-16,64,75%
+E006,C002,Cloud Essentials,2024-07-08,69,50%
+E007,C106,Data Visualization,2024-02-11,52,50%
+E008,C138,Data Visualization,2024-05-05,66,25%
+E009,C151,SQL for Beginners,2024-07-23,70,100%
+E010,C170,SQL for Beginners,2024-06-16,61,25%
+E011,C081,Data Visualization,2024-07-15,50,0%
+E012,C004,Cloud Essentials,2024-07-26,70,25%
+E013,C094,SQL for Beginners,2024-06-09,93,0%
+E014,C160,Data Visualization,2024-05-29,58,25%
+E015,C053,Python Basics,2024-04-01,51,25%
+E016,C103,SQL for Beginners,2024-07-10,83,75%
+E017,C159,Python Basics,2024-05-09,75,0%
+E018,C033,Python Basics,2024-02-20,83,0%
+E019,C065,SQL for Beginners,2024-05-24,50,75%
+E020,C051,Data Visualization,2024-07-13,66,0%
+E021,C183,SQL for Beginners,2024-06-20,86,75%
+E022,C147,SQL for Beginners,2024-06-17,83,25%
+E023,C116,Data Visualization,2024-06-22,52,50%
+E024,C027,SQL for Beginners,2024-03-09,69,0%
+E025,C055,Linux Fundamentals,2024-02-05,89,0%
+E026,C040,Data Visualization,2024-07-13,79,50%
+E027,C154,SQL for Beginners,2024-06-28,60,75%
+E028,C056,Linux Fundamentals,2024-04-13,50,50%
+E029,C073,Linux Fundamentals,2024-04-16,61,75%
+E030,C047,Cloud Essentials,2024-04-19,54,0%
+E031,C098,Data Visualization,2024-04-30,68,0%
+E032,C119,Python Basics,2024-03-05,68,25%
+E033,C167,Data Visualization,2024-03-31,67,75%
+E034,C056,SQL for Beginners,2024-02-21,90,100%
+E035,C024,Data Visualization,2024-05-14,61,100%
+E036,C120,Cloud Essentials,2024-02-09,89,0%
+E037,C020,SQL for Beginners,2024-07-11,89,50%
+E038,C017,Data Visualization,2024-02-29,78,100%
+E039,C170,Data Visualization,2024-04-21,76,50%
+E040,C151,Python Basics,2024-07-25,76,100%
+E041,C158,SQL for Beginners,2024-04-19,87,0%
+E042,C139,Python Basics,2024-05-18,85,25%
+E043,C140,Data Visualization,2024-07-05,80,25%
+E044,C088,Linux Fundamentals,2024-04-25,64,0%
+E045,C070,Cloud Essentials,2024-02-19,94,0%
+E046,C024,Cloud Essentials,2024-03-08,99,0%
+E047,C084,Data Visualization,2024-06-24,89,25%
+E048,C137,SQL for Beginners,2024-07-14,64,25%
+E049,C152,Cloud Essentials,2024-06-12,73,50%
+E050,C012,Python Basics,2024-04-02,81,0%
+E051,C111,SQL for Beginners,2024-06-04,70,75%
+E052,C049,Linux Fundamentals,2024-02-28,90,0%
+E053,C049,Cloud Essentials,2024-02-25,53,0%
+E054,C131,Cloud Essentials,2024-07-23,97,50%
+E055,C124,Data Visualization,2024-07-20,91,50%
+E056,C049,Cloud Essentials,2024-04-12,82,50%
+E057,C109,Data Visualization,2024-04-02,67,100%
+E058,C171,Linux Fundamentals,2024-05-29,51,50%
+E059,C130,Linux Fundamentals,2024-05-02,68,75%
+E060,C118,Cloud Essentials,2024-02-18,69,0%
+E061,C018,Python Basics,2024-06-04,65,50%
+E062,C113,Cloud Essentials,2024-06-07,61,50%
+E063,C011,Cloud Essentials,2024-05-28,61,0%
+E064,C125,Data Visualization,2024-07-20,56,50%
+E065,C150,Python Basics,2024-03-22,51,0%
+E066,C012,Python Basics,2024-04-20,78,50%
+E067,C015,SQL for Beginners,2024-05-06,55,50%
+E068,C140,Data Visualization,2024-04-05,69,50%
+E069,C200,Python Basics,2024-07-20,86,0%
+E070,C187,Data Visualization,2024-04-29,86,50%
+E071,C125,Python Basics,2024-03-09,98,75%
+E072,C195,Linux Fundamentals,2024-04-01,99,50%
+E073,C076,Python Basics,2024-06-09,68,75%
+E074,C058,Cloud Essentials,2024-06-05,55,50%
+E075,C016,Linux Fundamentals,2024-06-28,78,50%
+E076,C178,Data Visualization,2024-04-23,69,25%
+E077,C189,SQL for Beginners,2024-02-24,94,75%
+E078,C044,Data Visualization,2024-03-30,95,75%
+E079,C189,Data Visualization,2024-07-19,97,0%
+E080,C132,Data Visualization,2024-05-17,92,50%
+E081,C115,Python Basics,2024-06-01,63,100%
+E082,C038,SQL for Beginners,2024-07-16,73,25%
+E083,C056,Python Basics,2024-06-24,74,75%
+E084,C167,SQL for Beginners,2024-07-28,95,75%
+E085,C057,SQL for Beginners,2024-07-22,53,25%
+E086,C156,Linux Fundamentals,2024-07-21,96,75%
+E087,C053,Linux Fundamentals,2024-03-08,70,50%
+E088,C118,Data Visualization,2024-04-03,51,50%
+E089,C073,Python Basics,2024-03-16,53,50%
+E090,C184,Python Basics,2024-04-19,57,0%
+E091,C196,Cloud Essentials,2024-03-01,63,0%
+E092,C118,Cloud Essentials,2024-05-22,88,100%
+E093,C191,Python Basics,2024-03-31,90,50%
+E094,C129,Data Visualization,2024-04-18,90,25%
+E095,C184,Linux Fundamentals,2024-03-29,86,50%
+E096,C068,Data Visualization,2024-03-29,80,0%
+E097,C148,SQL for Beginners,2024-07-19,66,0%
+E098,C188,SQL for Beginners,2024-04-11,57,25%
+E099,C069,Python Basics,2024-05-13,53,25%
+E100,C094,Data Visualization,2024-07-19,79,100%
+E101,C199,Data Visualization,2024-04-03,64,75%
+E102,C030,Python Basics,2024-02-16,100,75%
+E103,C166,Python Basics,2024-05-21,86,75%
+E104,C152,SQL for Beginners,2024-03-22,67,25%
+E105,C087,Python Basics,2024-03-06,77,25%
+E106,C077,Python Basics,2024-07-30,95,50%
+E107,C143,Cloud Essentials,2024-07-05,53,0%
+E108,C036,SQL for Beginners,2024-03-16,66,75%
+E109,C173,Data Visualization,2024-02-12,68,75%
+E110,C101,Linux Fundamentals,2024-04-05,53,100%
+E111,C145,Linux Fundamentals,2024-06-22,86,0%
+E112,C167,Linux Fundamentals,2024-06-12,82,0%
+E113,C163,Data Visualization,2024-04-20,97,0%
+E114,C047,Data Visualization,2024-06-02,51,0%
+E115,C185,Python Basics,2024-04-11,83,100%
+E116,C016,Python Basics,2024-07-18,92,50%
+E117,C103,SQL for Beginners,2024-03-21,58,100%
+E118,C185,Python Basics,2024-04-12,91,25%
+E119,C165,Cloud Essentials,2024-07-07,75,50%
+E120,C131,Python Basics,2024-07-27,82,0%
+E121,C176,Python Basics,2024-03-07,59,25%
+E122,C001,Cloud Essentials,2024-07-18,53,75%
+E123,C104,Python Basics,2024-05-07,96,50%
+E124,C099,Linux Fundamentals,2024-07-15,91,25%
+E125,C023,Linux Fundamentals,2024-02-05,95,50%
+E126,C033,Python Basics,2024-03-05,82,25%
+E127,C088,Linux Fundamentals,2024-02-03,77,25%
+E128,C109,Linux Fundamentals,2024-04-13,54,75%
+E129,C009,Cloud Essentials,2024-04-06,72,50%
+E130,C110,SQL for Beginners,2024-06-04,63,100%
+E131,C026,Linux Fundamentals,2024-03-03,55,50%
+E132,C097,Python Basics,2024-05-06,52,0%
+E133,C038,SQL for Beginners,2024-03-15,55,75%
+E134,C145,Data Visualization,2024-05-02,60,100%
+E135,C053,SQL for Beginners,2024-04-24,75,100%
+E136,C152,SQL for Beginners,2024-04-09,100,25%
+E137,C095,Python Basics,2024-06-17,64,25%
+E138,C125,Python Basics,2024-04-19,75,100%
+E139,C047,SQL for Beginners,2024-06-12,61,100%
+E140,C082,Linux Fundamentals,2024-04-18,90,50%
+E141,C167,Data Visualization,2024-03-15,74,25%
+E142,C060,Linux Fundamentals,2024-03-18,72,25%
+E143,C026,Data Visualization,2024-04-05,65,25%
+E144,C164,Linux Fundamentals,2024-06-04,79,100%
+E145,C134,Cloud Essentials,2024-04-09,95,75%
+E146,C102,Data Visualization,2024-02-19,75,50%
+E147,C063,Linux Fundamentals,2024-07-05,89,25%
+E148,C069,Cloud Essentials,2024-03-19,89,25%
+E149,C052,SQL for Beginners,2024-03-30,76,50%
+E150,C137,Python Basics,2024-06-02,96,75%
+E151,C160,Linux Fundamentals,2024-03-28,64,75%
+E152,C148,Data Visualization,2024-03-25,71,0%
+E153,C052,Python Basics,2024-03-30,97,100%
+E154,C182,SQL for Beginners,2024-06-20,61,25%
+E155,C141,SQL for Beginners,2024-02-17,64,50%
+E156,C189,Data Visualization,2024-05-06,68,25%
+E157,C128,Data Visualization,2024-05-28,77,25%
+E158,C064,Cloud Essentials,2024-07-22,63,0%
+E159,C172,Data Visualization,2024-02-17,70,0%
+E160,C049,SQL for Beginners,2024-04-25,62,75%
+E161,C046,Cloud Essentials,2024-05-02,99,100%
+E162,C005,Data Visualization,2024-04-05,93,0%
+E163,C054,Python Basics,2024-06-26,88,75%
+E164,C096,Cloud Essentials,2024-03-27,82,100%
+E165,C061,Data Visualization,2024-03-07,78,25%
+E166,C134,Python Basics,2024-04-13,87,0%
+E167,C047,Cloud Essentials,2024-02-11,73,100%
+E168,C197,Cloud Essentials,2024-07-21,95,50%
+E169,C111,Cloud Essentials,2024-03-18,77,75%
+E170,C009,Data Visualization,2024-05-10,71,25%
+E171,C140,Python Basics,2024-02-01,83,50%
+E172,C182,Linux Fundamentals,2024-07-10,91,100%
+E173,C029,Data Visualization,2024-04-02,99,25%
+E174,C065,Python Basics,2024-04-02,78,75%
+E175,C051,Data Visualization,2024-05-23,84,75%
+E176,C166,Cloud Essentials,2024-03-05,55,100%
+E177,C028,Data Visualization,2024-04-16,76,0%
+E178,C158,Cloud Essentials,2024-05-12,81,0%
+E179,C161,Python Basics,2024-07-22,74,50%
+E180,C114,Linux Fundamentals,2024-06-06,80,100%
+E181,C040,Linux Fundamentals,2024-05-20,90,50%
+E182,C132,Cloud Essentials,2024-07-24,66,75%
+E183,C052,Cloud Essentials,2024-04-07,65,25%
+E184,C195,Linux Fundamentals,2024-06-04,56,75%
+E185,C139,Linux Fundamentals,2024-03-25,65,50%
+E186,C187,Linux Fundamentals,2024-04-30,61,75%
+E187,C175,Data Visualization,2024-07-03,57,50%
+E188,C017,Linux Fundamentals,2024-02-19,76,25%
+E189,C184,Linux Fundamentals,2024-03-15,95,100%
+E190,C182,Linux Fundamentals,2024-07-28,86,0%
+E191,C077,Cloud Essentials,2024-05-22,63,0%
+E192,C162,SQL for Beginners,2024-02-22,94,50%
+E193,C028,Cloud Essentials,2024-05-19,100,25%
+E194,C113,Linux Fundamentals,2024-03-25,92,0%
+E195,C040,SQL for Beginners,2024-06-25,97,100%
+E196,C130,Data Visualization,2024-07-15,82,0%
+E197,C189,Linux Fundamentals,2024-03-12,94,100%
+E198,C172,Data Visualization,2024-02-24,77,100%
+E199,C123,Linux Fundamentals,2024-05-23,54,50%
+E200,C161,Linux Fundamentals,2024-06-27,79,0%
+E201,C110,Data Visualization,2024-04-18,73,100%
+E202,C127,Cloud Essentials,2024-04-30,100,50%
+E203,C071,Data Visualization,2024-06-14,82,75%
+E204,C153,Linux Fundamentals,2024-04-13,73,25%
+E205,C023,Linux Fundamentals,2024-02-12,54,50%
+E206,C186,Cloud Essentials,2024-03-07,80,25%
+E207,C100,Cloud Essentials,2024-04-03,77,50%
+E208,C182,Linux Fundamentals,2024-03-20,67,25%
+E209,C092,SQL for Beginners,2024-04-15,51,50%
+E210,C008,Linux Fundamentals,2024-07-03,71,25%
+E211,C139,Python Basics,2024-03-27,75,0%
+E212,C005,Data Visualization,2024-04-03,75,75%
+E213,C107,Cloud Essentials,2024-03-05,73,100%
+E214,C167,Data Visualization,2024-05-08,100,0%
+E215,C016,Data Visualization,2024-03-22,83,75%
+E216,C192,Cloud Essentials,2024-03-15,59,75%
+E217,C114,SQL for Beginners,2024-02-08,63,0%
+E218,C059,SQL for Beginners,2024-04-05,99,100%
+E219,C180,Python Basics,2024-06-06,81,50%
+E220,C121,Python Basics,2024-02-02,76,100%
+E221,C051,SQL for Beginners,2024-07-29,66,25%
+E222,C028,Linux Fundamentals,2024-02-21,86,0%
+E223,C143,SQL for Beginners,2024-03-24,86,50%
+E224,C036,Linux Fundamentals,2024-02-11,95,25%
+E225,C146,Python Basics,2024-06-20,98,25%
+E226,C069,Cloud Essentials,2024-05-29,92,100%
+E227,C200,Linux Fundamentals,2024-04-28,63,50%
+E228,C050,SQL for Beginners,2024-04-22,51,0%
+E229,C121,SQL for Beginners,2024-02-11,97,75%
+E230,C200,Linux Fundamentals,2024-02-06,60,50%
+E231,C128,Python Basics,2024-04-03,72,50%
+E232,C079,Data Visualization,2024-03-14,78,50%
+E233,C017,Cloud Essentials,2024-04-30,96,75%
+E234,C050,Cloud Essentials,2024-07-15,84,75%
+E235,C099,Linux Fundamentals,2024-07-23,51,100%
+E236,C125,Data Visualization,2024-03-11,91,100%
+E237,C150,Linux Fundamentals,2024-07-17,95,75%
+E238,C025,Cloud Essentials,2024-05-15,74,100%
+E239,C065,SQL for Beginners,2024-05-07,65,0%
+E240,C067,Data Visualization,2024-02-20,98,0%
+E241,C046,Data Visualization,2024-05-04,78,50%
+E242,C100,Cloud Essentials,2024-06-21,58,75%
+E243,C091,Cloud Essentials,2024-05-25,90,100%
+E244,C043,Python Basics,2024-05-21,66,100%
+E245,C176,Cloud Essentials,2024-03-03,79,25%
+E246,C145,SQL for Beginners,2024-05-28,83,100%
+E247,C102,SQL for Beginners,2024-03-26,53,50%
+E248,C068,Python Basics,2024-06-13,91,50%
+E249,C161,Data Visualization,2024-03-27,67,25%
+E250,C108,SQL for Beginners,2024-07-30,73,0%
+E251,C091,Linux Fundamentals,2024-04-08,99,25%
+E252,C114,SQL for Beginners,2024-03-19,64,25%
+E253,C153,Data Visualization,2024-05-10,73,100%
+E254,C035,Cloud Essentials,2024-06-26,99,50%
+E255,C051,SQL for Beginners,2024-03-20,93,25%
+E256,C086,SQL for Beginners,2024-06-19,91,25%
+E257,C186,Data Visualization,2024-07-06,94,50%
+E258,C066,SQL for Beginners,2024-07-31,90,25%
+E259,C093,Cloud Essentials,2024-05-18,86,0%
+E260,C007,SQL for Beginners,2024-05-27,82,0%
+E261,C185,Linux Fundamentals,2024-04-03,99,50%
+E262,C136,Data Visualization,2024-02-07,53,0%
+E263,C170,Data Visualization,2024-04-05,72,0%
+E264,C147,Cloud Essentials,2024-02-07,75,0%
+E265,C139,Cloud Essentials,2024-07-12,82,75%
+E266,C008,SQL for Beginners,2024-02-12,52,100%
+E267,C031,SQL for Beginners,2024-05-22,51,50%
+E268,C107,Data Visualization,2024-02-05,88,75%
+E269,C183,SQL for Beginners,2024-04-18,92,100%
+E270,C143,SQL for Beginners,2024-02-16,69,25%
+E271,C121,SQL for Beginners,2024-04-18,89,0%
+E272,C046,Cloud Essentials,2024-02-03,67,25%
+E273,C195,Python Basics,2024-05-29,59,0%
+E274,C182,Linux Fundamentals,2024-06-24,66,25%
+E275,C191,SQL for Beginners,2024-07-12,85,100%
+E276,C064,Python Basics,2024-07-01,66,25%
+E277,C195,Cloud Essentials,2024-07-09,92,50%
+E278,C119,Linux Fundamentals,2024-06-14,67,0%
+E279,C036,Cloud Essentials,2024-02-16,56,100%
+E280,C046,SQL for Beginners,2024-02-29,77,75%
+E281,C145,Linux Fundamentals,2024-02-05,58,25%
+E282,C182,Python Basics,2024-04-09,52,25%
+E283,C010,Cloud Essentials,2024-02-24,89,0%
+E284,C057,SQL for Beginners,2024-06-13,85,100%
+E285,C113,Python Basics,2024-05-09,86,75%
+E286,C029,Data Visualization,2024-02-27,66,25%
+E287,C050,Data Visualization,2024-02-07,99,0%
+E288,C055,SQL for Beginners,2024-07-25,86,75%
+E289,C055,Python Basics,2024-04-08,66,75%
+E290,C187,Python Basics,2024-02-25,60,75%
+E291,C139,Cloud Essentials,2024-03-15,84,100%
+E292,C163,SQL for Beginners,2024-05-09,75,100%
+E293,C127,Data Visualization,2024-02-04,66,75%
+E294,C015,Data Visualization,2024-06-21,58,0%
+E295,C181,Cloud Essentials,2024-04-15,77,75%
+E296,C089,Linux Fundamentals,2024-03-05,69,0%
+E297,C154,Data Visualization,2024-07-08,71,75%
+E298,C023,Cloud Essentials,2024-07-19,88,50%
+E299,C159,Data Visualization,2024-07-08,67,25%
+E300,C181,Cloud Essentials,2024-07-30,55,0%
+E301,C123,Data Visualization,2024-02-23,65,100%
+E302,C099,Python Basics,2024-03-17,87,0%
+E303,C071,SQL for Beginners,2024-03-15,82,0%
+E304,C011,Data Visualization,2024-02-25,58,0%
+E305,C123,Cloud Essentials,2024-07-14,74,0%
+E306,C082,Data Visualization,2024-05-23,60,100%
+E307,C053,Data Visualization,2024-07-09,79,75%
+E308,C150,SQL for Beginners,2024-05-24,62,25%
+E309,C099,Data Visualization,2024-07-24,91,100%
+E310,C147,SQL for Beginners,2024-03-28,55,0%
+E311,C150,Data Visualization,2024-06-24,66,50%
+E312,C156,Python Basics,2024-02-14,71,75%
+E313,C173,Python Basics,2024-07-12,93,25%
+E314,C099,Python Basics,2024-04-14,71,25%
+E315,C042,Linux Fundamentals,2024-04-15,50,50%
+E316,C132,Linux Fundamentals,2024-03-31,95,100%
+E317,C113,Python Basics,2024-04-06,94,100%
+E318,C011,Python Basics,2024-07-25,70,50%
+E319,C041,Linux Fundamentals,2024-03-24,88,25%
+E320,C053,SQL for Beginners,2024-03-27,66,100%
+E321,C105,Linux Fundamentals,2024-04-25,97,75%
+E322,C018,Python Basics,2024-06-11,71,25%
+E323,C077,Python Basics,2024-07-18,68,50%
+E324,C099,Cloud Essentials,2024-07-13,66,100%
+E325,C173,Linux Fundamentals,2024-06-14,62,0%
+E326,C167,SQL for Beginners,2024-04-01,70,100%
+E327,C085,Linux Fundamentals,2024-03-27,74,0%
+E328,C092,SQL for Beginners,2024-02-18,53,75%
+E329,C043,Python Basics,2024-06-08,65,50%
+E330,C079,Python Basics,2024-05-23,83,0%
+E331,C134,Linux Fundamentals,2024-03-05,98,0%
+E332,C074,Python Basics,2024-04-12,88,100%
+E333,C171,Linux Fundamentals,2024-04-23,92,25%
+E334,C071,Cloud Essentials,2024-06-15,60,25%
+E335,C009,Cloud Essentials,2024-04-12,100,100%
+E336,C101,Python Basics,2024-04-30,79,25%
+E337,C065,SQL for Beginners,2024-06-19,54,100%
+E338,C017,Data Visualization,2024-03-27,77,75%
+E339,C090,Cloud Essentials,2024-02-27,82,75%
+E340,C098,Data Visualization,2024-04-01,69,0%
+E341,C156,Python Basics,2024-03-11,52,50%
+E342,C165,Linux Fundamentals,2024-07-26,82,0%
+E343,C189,SQL for Beginners,2024-03-10,84,0%
+E344,C192,Data Visualization,2024-06-09,90,25%
+E345,C072,Linux Fundamentals,2024-07-18,63,100%
+E346,C065,Python Basics,2024-03-24,51,100%
+E347,C037,Cloud Essentials,2024-05-07,53,100%
+E348,C029,Data Visualization,2024-05-09,92,0%
+E349,C016,SQL for Beginners,2024-05-16,96,50%
+E350,C132,Data Visualization,2024-02-15,94,50%
+E351,C028,Data Visualization,2024-06-12,57,75%
+E352,C181,Linux Fundamentals,2024-04-18,94,0%
+E353,C118,Python Basics,2024-07-20,75,25%
+E354,C124,Linux Fundamentals,2024-02-22,92,25%
+E355,C174,Cloud Essentials,2024-04-17,53,100%
+E356,C188,SQL for Beginners,2024-06-18,73,75%
+E357,C099,Python Basics,2024-02-10,52,0%
+E358,C139,Data Visualization,2024-07-17,94,50%
+E359,C044,SQL for Beginners,2024-05-02,50,0%
+E360,C126,Data Visualization,2024-07-08,90,0%
+E361,C087,Data Visualization,2024-06-18,60,0%
+E362,C029,Cloud Essentials,2024-02-02,74,75%
+E363,C069,SQL for Beginners,2024-04-09,76,25%
+E364,C074,SQL for Beginners,2024-02-17,89,0%
+E365,C162,Linux Fundamentals,2024-03-12,96,0%
+E366,C110,Data Visualization,2024-06-26,79,25%
+E367,C006,Linux Fundamentals,2024-07-12,83,25%
+E368,C058,Python Basics,2024-06-21,56,100%
+E369,C041,Linux Fundamentals,2024-04-26,52,100%
+E370,C135,Linux Fundamentals,2024-02-08,63,75%
+E371,C158,Cloud Essentials,2024-04-23,65,100%
+E372,C161,Data Visualization,2024-02-05,100,100%
+E373,C134,Python Basics,2024-03-24,51,50%
+E374,C039,Linux Fundamentals,2024-07-15,54,0%
+E375,C057,Data Visualization,2024-07-31,78,25%
+E376,C065,Cloud Essentials,2024-07-09,57,75%
+E377,C171,SQL for Beginners,2024-05-26,93,0%
+E378,C008,SQL for Beginners,2024-02-13,52,25%
+E379,C083,Data Visualization,2024-06-29,60,25%
+E380,C153,SQL for Beginners,2024-03-18,72,100%
+E381,C118,SQL for Beginners,2024-03-26,87,75%
+E382,C123,SQL for Beginners,2024-05-14,57,50%
+E383,C161,Cloud Essentials,2024-06-14,57,0%
+E384,C098,SQL for Beginners,2024-06-17,80,75%
+E385,C087,SQL for Beginners,2024-07-09,99,100%
+E386,C109,Data Visualization,2024-06-17,64,75%
+E387,C078,Python Basics,2024-07-17,100,50%
+E388,C103,Data Visualization,2024-02-05,100,100%
+E389,C150,Data Visualization,2024-04-17,54,75%
+E390,C164,Data Visualization,2024-03-12,92,25%
+E391,C047,Data Visualization,2024-05-23,73,100%
+E392,C027,SQL for Beginners,2024-07-01,74,75%
+E393,C010,Data Visualization,2024-06-13,57,75%
+E394,C167,Python Basics,2024-05-28,58,0%
+E395,C065,Python Basics,2024-03-10,66,100%
+E396,C089,Data Visualization,2024-06-29,95,50%
+E397,C139,Linux Fundamentals,2024-02-17,81,25%
+E398,C157,Python Basics,2024-06-22,50,75%
+E399,C165,Data Visualization,2024-02-28,77,100%
+E400,C031,Python Basics,2024-05-13,98,25%

@@ -1,0 +1,151 @@
+placement_id,candidate_id,employer,province,placement_date,status
+PL001,C017,Unemployed,Northern Cape,,Unemployed
+PL002,C070,Vodacom,Western Cape,2024-07-24,Employed
+PL003,C038,Absa Bank,North West,2024-08-30,Employed
+PL004,C081,Standard Bank,North West,2024-06-22,Employed
+PL005,C018,Amazon,Limpopo,2024-06-28,Employed
+PL006,C189,Amazon,North West,2024-06-16,Employed
+PL007,C132,Unemployed,Free State,,Unemployed
+PL008,C125,Vodacom,Mpumalanga,2024-06-25,Employed
+PL009,C130,Amazon,Limpopo,2024-06-22,Employed
+PL010,C164,Vodacom,Western Cape,2024-08-26,Employed
+PL011,C120,Amazon,Limpopo,2024-08-07,Employed
+PL012,C082,Amazon,Northern Cape,2024-06-20,Employed
+PL013,C091,Unemployed,KwaZulu-Natal,,Unemployed
+PL014,C039,Unemployed,KwaZulu-Natal,,Unemployed
+PL015,C135,Vodacom,Gauteng,2024-06-10,Employed
+PL016,C112,Microsoft,Free State,2024-06-10,Employed
+PL017,C158,Microsoft,KwaZulu-Natal,2024-07-30,Employed
+PL018,C025,Absa Bank,Mpumalanga,2024-06-07,Employed
+PL019,C149,Amazon,Mpumalanga,2024-06-17,Employed
+PL020,C155,Vodacom,Limpopo,2024-07-13,Employed
+PL021,C015,Unemployed,Mpumalanga,,Unemployed
+PL022,C122,Microsoft,Gauteng,2024-06-30,Employed
+PL023,C144,Standard Bank,Mpumalanga,2024-06-18,Employed
+PL024,C130,Microsoft,Mpumalanga,2024-07-03,Employed
+PL025,C115,Standard Bank,Northern Cape,2024-07-31,Employed
+PL026,C128,Microsoft,Gauteng,2024-08-28,Employed
+PL027,C033,Amazon,North West,2024-08-20,Employed
+PL028,C099,Microsoft,Mpumalanga,2024-08-24,Employed
+PL029,C089,Standard Bank,Limpopo,2024-06-30,Employed
+PL030,C191,Unemployed,KwaZulu-Natal,,Unemployed
+PL031,C179,Microsoft,Northern Cape,2024-07-24,Employed
+PL032,C159,Amazon,North West,2024-06-08,Employed
+PL033,C183,Vodacom,Mpumalanga,2024-06-11,Employed
+PL034,C053,Unemployed,Northern Cape,,Unemployed
+PL035,C028,Standard Bank,Limpopo,2024-06-14,Employed
+PL036,C112,Microsoft,Gauteng,2024-08-14,Employed
+PL037,C104,Standard Bank,KwaZulu-Natal,2024-07-26,Employed
+PL038,C198,Absa Bank,Limpopo,2024-06-28,Employed
+PL039,C091,Vodacom,KwaZulu-Natal,2024-07-12,Employed
+PL040,C171,Unemployed,Free State,,Unemployed
+PL041,C148,Microsoft,Mpumalanga,2024-07-12,Employed
+PL042,C146,Unemployed,Free State,,Unemployed
+PL043,C132,Standard Bank,Western Cape,2024-07-18,Employed
+PL044,C191,Vodacom,KwaZulu-Natal,2024-06-14,Employed
+PL045,C026,Vodacom,KwaZulu-Natal,2024-07-19,Employed
+PL046,C075,Vodacom,Western Cape,2024-07-19,Employed
+PL047,C177,Absa Bank,KwaZulu-Natal,2024-08-06,Employed
+PL048,C181,Amazon,Free State,2024-08-21,Employed
+PL049,C150,Vodacom,Free State,2024-06-19,Employed
+PL050,C186,Vodacom,KwaZulu-Natal,2024-06-02,Employed
+PL051,C075,Unemployed,Gauteng,,Unemployed
+PL052,C027,Absa Bank,Gauteng,2024-08-05,Employed
+PL053,C003,Microsoft,Western Cape,2024-08-14,Employed
+PL054,C119,Microsoft,Gauteng,2024-07-10,Employed
+PL055,C042,Microsoft,KwaZulu-Natal,2024-08-22,Employed
+PL056,C158,Vodacom,North West,2024-06-25,Employed
+PL057,C110,Absa Bank,Western Cape,2024-07-27,Employed
+PL058,C199,Standard Bank,Limpopo,2024-07-25,Employed
+PL059,C160,Amazon,Gauteng,2024-08-09,Employed
+PL060,C186,Standard Bank,Limpopo,2024-07-14,Employed
+PL061,C158,Absa Bank,KwaZulu-Natal,2024-08-12,Employed
+PL062,C042,Amazon,Limpopo,2024-08-17,Employed
+PL063,C020,Absa Bank,North West,2024-08-16,Employed
+PL064,C147,Amazon,Gauteng,2024-07-06,Employed
+PL065,C112,Vodacom,North West,2024-08-26,Employed
+PL066,C019,Standard Bank,Gauteng,2024-08-06,Employed
+PL067,C138,Vodacom,KwaZulu-Natal,2024-07-07,Employed
+PL068,C080,Standard Bank,Northern Cape,2024-06-18,Employed
+PL069,C084,Amazon,Gauteng,2024-07-11,Employed
+PL070,C070,Microsoft,Eastern Cape,2024-07-17,Employed
+PL071,C200,Standard Bank,Limpopo,2024-06-14,Employed
+PL072,C183,Unemployed,KwaZulu-Natal,,Unemployed
+PL073,C076,Absa Bank,Western Cape,2024-07-11,Employed
+PL074,C023,Absa Bank,Limpopo,2024-07-25,Employed
+PL075,C174,Amazon,Free State,2024-07-01,Employed
+PL076,C195,Vodacom,Northern Cape,2024-07-05,Employed
+PL077,C155,Vodacom,Northern Cape,2024-08-30,Employed
+PL078,C058,Standard Bank,Western Cape,2024-06-15,Employed
+PL079,C180,Unemployed,Eastern Cape,,Unemployed
+PL080,C038,Vodacom,Gauteng,2024-07-21,Employed
+PL081,C146,Microsoft,North West,2024-08-20,Employed
+PL082,C029,Amazon,KwaZulu-Natal,2024-06-03,Employed
+PL083,C063,Microsoft,Eastern Cape,2024-07-08,Employed
+PL084,C129,Absa Bank,Western Cape,2024-06-01,Employed
+PL085,C090,Vodacom,Free State,2024-08-28,Employed
+PL086,C102,Absa Bank,Mpumalanga,2024-06-24,Employed
+PL087,C078,Unemployed,Northern Cape,,Unemployed
+PL088,C015,Amazon,Northern Cape,2024-08-05,Employed
+PL089,C154,Unemployed,KwaZulu-Natal,,Unemployed
+PL090,C173,Absa Bank,Free State,2024-06-18,Employed
+PL091,C191,Unemployed,Eastern Cape,,Unemployed
+PL092,C161,Microsoft,Northern Cape,2024-08-12,Employed
+PL093,C074,Microsoft,Mpumalanga,2024-06-30,Employed
+PL094,C120,Amazon,North West,2024-07-29,Employed
+PL095,C185,Vodacom,Mpumalanga,2024-07-10,Employed
+PL096,C012,Absa Bank,Gauteng,2024-08-28,Employed
+PL097,C008,Amazon,KwaZulu-Natal,2024-07-11,Employed
+PL098,C185,Microsoft,KwaZulu-Natal,2024-06-17,Employed
+PL099,C088,Standard Bank,KwaZulu-Natal,2024-07-14,Employed
+PL100,C075,Amazon,Gauteng,2024-06-02,Employed
+PL101,C005,Absa Bank,Western Cape,2024-06-03,Employed
+PL102,C093,Absa Bank,Gauteng,2024-06-20,Employed
+PL103,C075,Amazon,Western Cape,2024-08-05,Employed
+PL104,C069,Standard Bank,Eastern Cape,2024-07-27,Employed
+PL105,C172,Vodacom,KwaZulu-Natal,2024-06-01,Employed
+PL106,C166,Amazon,KwaZulu-Natal,2024-07-14,Employed
+PL107,C134,Microsoft,KwaZulu-Natal,2024-07-30,Employed
+PL108,C017,Unemployed,Mpumalanga,,Unemployed
+PL109,C013,Vodacom,North West,2024-06-23,Employed
+PL110,C066,Amazon,Western Cape,2024-07-03,Employed
+PL111,C029,Vodacom,Limpopo,2024-06-10,Employed
+PL112,C087,Microsoft,Gauteng,2024-06-05,Employed
+PL113,C079,Vodacom,Mpumalanga,2024-07-29,Employed
+PL114,C140,Amazon,Western Cape,2024-07-28,Employed
+PL115,C195,Absa Bank,Eastern Cape,2024-07-15,Employed
+PL116,C181,Microsoft,Limpopo,2024-08-30,Employed
+PL117,C132,Vodacom,Gauteng,2024-06-27,Employed
+PL118,C165,Absa Bank,Gauteng,2024-07-14,Employed
+PL119,C044,Standard Bank,Free State,2024-06-29,Employed
+PL120,C034,Vodacom,Free State,2024-07-26,Employed
+PL121,C031,Microsoft,North West,2024-08-12,Employed
+PL122,C145,Absa Bank,Northern Cape,2024-06-14,Employed
+PL123,C157,Unemployed,Western Cape,,Unemployed
+PL124,C031,Standard Bank,Gauteng,2024-08-27,Employed
+PL125,C122,Microsoft,KwaZulu-Natal,2024-06-27,Employed
+PL126,C113,Unemployed,North West,,Unemployed
+PL127,C017,Absa Bank,North West,2024-08-20,Employed
+PL128,C168,Unemployed,Limpopo,,Unemployed
+PL129,C123,Standard Bank,Northern Cape,2024-07-21,Employed
+PL130,C061,Vodacom,Gauteng,2024-06-07,Employed
+PL131,C167,Vodacom,Limpopo,2024-06-17,Employed
+PL132,C059,Microsoft,Free State,2024-06-02,Employed
+PL133,C137,Standard Bank,Western Cape,2024-07-26,Employed
+PL134,C115,Microsoft,Western Cape,2024-06-19,Employed
+PL135,C036,Vodacom,Free State,2024-06-05,Employed
+PL136,C136,Amazon,Western Cape,2024-06-22,Employed
+PL137,C028,Microsoft,Western Cape,2024-07-12,Employed
+PL138,C093,Absa Bank,Eastern Cape,2024-07-11,Employed
+PL139,C151,Vodacom,KwaZulu-Natal,2024-08-05,Employed
+PL140,C177,Absa Bank,KwaZulu-Natal,2024-06-30,Employed
+PL141,C086,Microsoft,KwaZulu-Natal,2024-08-21,Employed
+PL142,C135,Unemployed,Eastern Cape,,Unemployed
+PL143,C051,Amazon,Mpumalanga,2024-08-10,Employed
+PL144,C135,Microsoft,Limpopo,2024-07-11,Employed
+PL145,C092,Amazon,Free State,2024-06-26,Employed
+PL146,C052,Unemployed,Western Cape,,Unemployed
+PL147,C031,Vodacom,Western Cape,2024-08-07,Employed
+PL148,C107,Vodacom,Gauteng,2024-07-15,Employed
+PL149,C005,Amazon,Free State,2024-08-09,Employed
+PL150,C152,Unemployed,Limpopo,,Unemployed
